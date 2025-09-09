@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Clear Tab Data",
+  "version": "1.2",
+  "description": "Clears local storage, session storage, and cookies for the active tab.",
+  "permissions": ["activeTab", "cookies", "scripting", "storage", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "icons": {
+    "16": "broom16.png",
+    "32": "broom32.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "broom16.png",
+      "32": "broom32.png"
+    }
+  }
+}
